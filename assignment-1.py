@@ -24,17 +24,22 @@ numTwo = input("great! Input another number.")
 numTwo = (float(numTwo))
 
 answer = float(numOne * numTwo)
-print(numOne, "x", numTwo, "=", answer)
+print(f"{numOne} x {numTwo} = {answer}")
 
 #section 4
+item = "PRIMA CD"
+price = 11.99
+quantity = 1
+total = price * quantity
+
 print("===========================")
 print("        RECEIPT            ")
 print("===========================")
-print("Item:      PRIMA CD")
-print("Price:     $11.99")
-print("Quantity:  1")
+print(f"Item: {item}")
+print(f"Price: ${price:.2f}")
+print(f"Quantity: {quantity}")
 print("---------------------------")
-print("Total:     $11.99")
+print(f"Total: ${total}")
 print("===========================")
 
 #Section 5
@@ -43,9 +48,9 @@ hobby = input("What is one of your hobbies?")
 funFact = input("What is one fun fact about you?")
 
 print("╔══════════════════════════════╗")
-print("        PROFILE:", name)
+print(f"        PROFILE: {name}")
 print("╚══════════════════════════════╝")
-print("Hometown:", homeTown)
-print("Hobby:", hobby)
-print("Fun Fact:", funFact)
-print("Age:", userAge)
+print(f"Hometown: {homeTown}")
+print(f"Hobby: {hobby}")
+print(f"Fun Fact: {funFact}")
+print(f"Age: {userAge}")
