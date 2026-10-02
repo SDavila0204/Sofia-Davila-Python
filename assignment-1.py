@@ -35,12 +35,13 @@ total = price * quantity
 print("===========================")
 print("        RECEIPT            ")
 print("===========================")
-print(f"Item: {item}")
-print(f"Price: ${price:.2f}")
-print(f"Quantity: {quantity}")
+print(f"Item:               {item}")
+print(f"Price:        ${price:.2f}")
+print(f"Quantity:       {quantity}")
 print("---------------------------")
-print(f"Total: ${total}")
+print(f"Total:        ${total:.2f}")
 print("===========================")
+
 
 #Section 5
 homeTown = input("What is your hometown?")
